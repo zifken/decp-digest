@@ -1,0 +1,6 @@
+data/consol/*.json
+data/consol/*.csv
+data/consol/*.parquet
+.venv/
+__pycache__/
+enrich.log

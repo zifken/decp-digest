@@ -1,0 +1,68 @@
+=== 2026-09-27T20:53:37+02:00 run
+nothing new
+digest written: 264 marches, 284.0 M€
+  -> /home/kz/src/decp-digest/data/out/digest-2026-09-27.md
+  -> /home/kz/src/decp-digest/data/out/digest-2026-09-27.html
+Message successfully sent
+email sent
+=== 2026-09-27T20:53:42+02:00 done
+=== 2026-09-28T00:44:38+02:00 run
+nothing new
+no new notices since last run — digest unchanged
+Message successfully sent
+email sent
+=== 2026-09-28T00:44:41+02:00 done (digest sent)
+=== 2026-09-28T07:30:01+02:00 run
+fetch decp-28092026-008-0130.json
+downloaded 1 files (watermark -> decp-28092026-008-0130.json)
+digest written: 1 nouveaux marchés, 48 k€
+  -> /home/kz/src/decp-digest/data/out/digest-2026-09-28.md
+  -> /home/kz/src/decp-digest/data/out/digest-2026-09-28.html
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+  File "/usr/lib/python3.14/subprocess.py", line 555, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 1990, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'himalaya'
+=== 2026-10-05T07:30:02+02:00 run
+fetch decp-29092026-009-0130.json
+fetch decp-30092026-010-0130.json
+fetch decp-01102026-011-0130.json
+fetch decp-02102026-061-0130.json
+fetch decp-03102026-012-0130.json
+fetch decp-04102026-062-0130.json
+fetch decp-05102026-063-0130.json
+downloaded 7 files (watermark -> decp-05102026-063-0130.json)
+digest written: 339 nouveaux marchés, 423.5 M€
+  -> /home/kz/src/decp-digest/data/out/digest-2026-10-05.md
+  -> /home/kz/src/decp-digest/data/out/digest-2026-10-05.html
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+  File "/usr/lib/python3.14/subprocess.py", line 555, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 1039, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 1990, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'himalaya'
